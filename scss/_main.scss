@@ -1,0 +1,35 @@
+main {
+	height: calc(100vh - 9rem);
+	width: 100%;
+	section{
+		width: 100%;
+		max-width: 90rem;
+		height: 100%;
+	}	
+	.hero{		
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+		img {
+			width: 300px;
+		}
+		.msg {
+			text-align: center;
+			h1 {
+				color: $clrSecondary;
+			}
+			p {
+				max-width: 400px;
+				a {
+					color: $clrPrimary;
+				}
+			}
+		}
+
+	}
+
+	
+}
